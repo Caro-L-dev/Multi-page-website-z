@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="styles/home.css" />
     <link rel="stylesheet" href="styles/about.css" />
     <link rel="stylesheet" href="styles/medias.css" />
+    <link rel="stylesheet" href="styles/portfolio.css">
     <link rel="stylesheet" href="styles/colors/color-1.css" />
     <link
       rel="stylesheet"
@@ -26,7 +27,7 @@
       <!-- ==== Aside Start ==== -->
       <div class="aside">
         <div class="logo">
-          <a href="#"><span>Z</span> web</a>
+          <a href="#"><span>Z</span>web</a>
         </div>
         <div class="nav-toggler">
           <span></span>
@@ -45,10 +46,18 @@
             <a href="#"><i class="fas fa-music"></i> Musiques </a>
           </li>
           <li>
-            <a href="#"><i class="fa fa-comments"></i> Contact </a>
+            <a href="#"><i class="fa fa-briefcase"></i> Portfolio API </a>
           </li>
           <li>
-            <a href="#"><i class="fa fa-home"></i> Bonus </a>
+            <a href="#"><i class="fas fa-sort-numeric-up-alt"></i> Algo </a>
+          </li>
+          <br>
+
+          <li>
+            <a href="#"><i class="fa fa-home"></i> Connexion </a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-home"></i> Inscription </a>
           </li>
         </ul>
       </div>
@@ -282,7 +291,7 @@
         </section>
         <!-- ==== About Section End ==== -->
         <!-- ==== Series Section Start ==== -->
-        <div class="medias section">
+        <div class="medias section hidden">
           <div class="container">
             <div class="row">
               <div class="section-title padd-15">
@@ -372,77 +381,104 @@
           </div>
         </div>
         <!-- ==== Series Section End ==== -->
-                <!-- ==== Musics Section Start ==== -->
-                <div class="medias section">
-                    <div class="container">
-                      <div class="row">
-                        <div class="section-title padd-15">
-                          <h2>
-                            <i class="fas fa-music"></i> Musiques coup de
-                            <i class="far fa-heart"></i>
-                          </h2>
-                        </div>
-                      </div>
-                      <div class="row padd-space">
-                        <!-- ==== Musics Item Start ==== -->
-                        <div class="medias-item padd-15">
-                          <div class="medias-item-inner">
-                            <img 
-                            src="styles/images/fall-out-boy-phoenix.jpg"
-                            alt="Fall Out Boy"
-                        >
-                            <h4>Fall Out Boy - THE PHOENIX</h4>
-                            <div class="icon">
-                                <i class="far fa-play-circle"></i>
-                                <audio >
-                                    <source src="#"/>
-                                </audio>
-                            </div>
-                            <p class="categories">Rock</p>
-                          </div>
-                        </div>
-                        <!-- ==== Musics Item End ==== -->
-                         <!-- ==== Musics Item Start ==== -->
-                         <div class="medias-item padd-15">
-                            <div class="medias-item-inner">
-                              <img 
-                              src="styles/images/jenny.jpg"
-                              alt="Jenny"
-                          >
-                              <h4>Studio Killers - Jenny</h4>
-                              <div class="icon">
-                                  <i class="far fa-play-circle"></i>
-                                  <audio >
-                                      <source src="#"/>
-                                  </audio>
-                              </div>
-                              <p class="categories">Electro / Pop</p>
-                            </div>
-                          </div>
-                          <!-- ==== Musics Item End ==== -->
-                                                   <!-- ==== Musics Item Start ==== -->
-                         <div class="medias-item padd-15">
-                            <div class="medias-item-inner">
-                              <img 
-                              src="styles/images/caravan-palace.jpg"
-                              alt="caravan-palace"
-                          >
-                              <h4>Caravan Palace - Lone Digger</h4>
-                              <div class="icon">
-                                  <i class="far fa-play-circle"></i>
-                                  <audio >
-                                      <source src="#"/>
-                                  </audio>
-                              </div>
-                              <p class="categories">Electro</p>
-                            </div>
-                          </div>
-                          <!-- ==== Musics Item End ==== -->
-                     
-                      </div>
+        <!-- ==== Musics Section Start ==== -->
+        <div class="medias section hidden">
+            <div class="container">
+                <div class="row">
+                <div class="section-title padd-15">
+                    <h2>
+                    <i class="fas fa-music"></i> Musiques coup de
+                    <i class="far fa-heart"></i>
+                    </h2>
+                </div>
+                </div>
+                <div class="row padd-space">
+                <!-- ==== Musics Item Start ==== -->
+                <div class="medias-item padd-15">
+                    <div class="medias-item-inner">
+                    <img 
+                    src="styles/images/fall-out-boy-phoenix.jpg"
+                    alt="Fall Out Boy"
+                >
+                    <h4>Fall Out Boy - THE PHOENIX</h4>
+                    <div class="icon">
+                        <i class="far fa-play-circle"></i>
+                        <audio >
+                            <source src="#"/>
+                        </audio>
                     </div>
-                  </div>
-                  <!-- ==== Musics Section End ==== -->
+                    <p class="categories">Rock</p>
+                    </div>
+                </div>
+                <!-- ==== Musics Item End ==== -->
+                    <!-- ==== Musics Item Start ==== -->
+                    <div class="medias-item padd-15">
+                    <div class="medias-item-inner">
+                        <img 
+                        src="styles/images/jenny.jpg"
+                        alt="Jenny"
+                    >
+                        <h4>Studio Killers - Jenny</h4>
+                        <div class="icon">
+                            <i class="far fa-play-circle"></i>
+                            <audio >
+                                <source src="#"/>
+                            </audio>
+                        </div>
+                        <p class="categories">Electro / Pop</p>
+                    </div>
+                    </div>
+                    <!-- ==== Musics Item End ==== -->
+                                            <!-- ==== Musics Item Start ==== -->
+                    <div class="medias-item padd-15">
+                    <div class="medias-item-inner">
+                        <img 
+                        src="styles/images/caravan-palace.jpg"
+                        alt="caravan-palace"
+                    >
+                        <h4>Caravan Palace - Lone Digger</h4>
+                        <div class="icon">
+                            <i class="far fa-play-circle"></i>
+                            <audio >
+                                <source src="#"/>
+                            </audio>
+                        </div>
+                        <p class="categories">Electro</p>
+                    </div>
+                    </div>
+                    <!-- ==== Musics Item End ==== -->
+                
+                </div>
+            </div>
+        </div>
+        <!-- ==== Musics Section End ==== -->
+        <!-- ==== Portfolio Section Start ==== -->
+        <section class="portfolio section">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title padd-15">
+                        <h2>Portfolio</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="portfolio-heading padd-15 padd-space">
+                        <h2>Mes derniers projets :</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- ==== Portfolio Item Start ==== -->
+                    <div class="portfolio-item padd-15">
+                        <div class="portfolio-item-inner shadow-dark">
+                            <div class="portfolio-img">
+                                <img src="#" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ==== Portfolio Item End ==== -->
+                </div>
+            </div>
+        </section>
+        <!-- ==== Portfolio Section End ==== -->
       </div>
       <!-- ==== Main Content End ==== -->
     </div>
