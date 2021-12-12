@@ -48,6 +48,10 @@ body{
     padding-right: 0.5rem;
 }
 
+.padd-space{
+    padding-top: 6rem;
+}
+
 .container{
     max-width: 100rem;
     width: 100%;
@@ -120,3 +124,4 @@ body{
 .shadow-dark{
     box-shadow: 0 0 0.2rem rgba(48, 46, 77, 0.15);
 }
+
