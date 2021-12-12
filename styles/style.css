@@ -31,10 +31,46 @@ body{
     background: var(--bg-black-900);
     min-height: 100vh;
     display: block;
-    position: fixed;
-    left: 18rem;
-    top: 0;
-    right: 0;
-    z-index: 0;
+    padding: 0 2rem;
     opacity: 1;
+}
+
+.main-content{
+    padding-left: 18rem;
+}
+
+.padd-15{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.container{
+    max-width: 100rem;
+    width: 100%;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+    position: relative;
+}
+
+.btn{
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 0.5rem 2rem;
+    background: var(--skin-color);
+    color: white;
+    border-radius: 0.4rem;
+    display: inline-block;
+    white-space: nowrap;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.btn:hover{
+    transform: scale(1.05);
 }
