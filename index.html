@@ -1,70 +1,275 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TP 2 Z</title>
     <!-- ==== CSS FILES ==== -->
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/aside.css">
-    <link rel="stylesheet" href="styles/home.css">
-    <link rel="stylesheet" href="styles/colors/color-1.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/aside.css" />
+    <link rel="stylesheet" href="styles/home.css" />
+    <link rel="stylesheet" href="styles/about.css" />
+    <link rel="stylesheet" href="styles/colors/color-1.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
     <!-- ==== Main container Start ==== -->
     <div class="main-container">
-        <!-- ==== Aside Start ==== -->
-        <div class="aside">
-            <div class="logo">
-                <a href="#"><span>Z</span> web</a>
-            </div>
-            <div class="nav-toggler">
-                <span></span>
-            </div>
-            <ul class="nav">
-                <li><a href="#" class="active"><i class="fa fa-home"></i> Home </a></li>
-                <li><a href="#"><i class="fa fa-user"></i> About </a></li>
-                <li><a href="#"><i class="fa fa-list"></i> Services </a></li>
-                <li><a href="#"><i class="fa fa-briefcase"></i> Portfolio </a></li>
-                <li><a href="#"><i class="fa fa-comments"></i> Contact </a></li>
-                <li><a href="#"><i class="fa fa-home"></i> Bonus </a></li>
-            </ul>
+      <!-- ==== Aside Start ==== -->
+      <div class="aside">
+        <div class="logo">
+          <a href="#"><span>Z</span> web</a>
         </div>
-        <!-- ==== Aside End ==== -->
-        <!-- ==== Main Content Start ==== -->
-        <div class="main-content">
-            <!-- ==== Home Section Start ==== -->
-            <section class="home section">
-                <div class="container">
-                    <div class="row">
-                        <div class="home-info padd-15">
-                            <h3 class="hello">Qui <span class="name">suis je ?</span></h3>
-                            <h3 class="my-profession">J'étudie au sein de la <span class="typing">promo Z</span></h3>
-                            <h4 class="subtitle">Charade / Devinette de mon invention ~</h4>
-                            <p class="subtitle-text">Un peu d'exercice cérébral s'il vous plait <i class="far fa-lightbulb"></i></p>
-                            <ul>
-                                <li><p>1. Je suis l'appelation du mot "voiture" en anglais.</p></li>
-                                <li><p>2. Les parents crient souvent "!!!" à leurs enfants quand <br> il est temps d'aller se coucher.</p></li>
-                                <li><p>3. Un "xxxxx" est à l'orgine des boucles de lacets.</p></li>
-                                <li><p>Alors, avez vous trouvez mon prénom ? <i class="far fa-smile-beam"></i> </p></li>
-                                <li class="home-spoiler">Réponse : <span>Caroline Liard</span>  </li>
-                            </ul>
-                            <a href="#contact" class="btn hire-me">Intrigué ? Par ici les infos !</a>
-                        </div>
-                        <div class="home-img padd-15">
-                            <img src="styles/images/TAG_01_Merry.png" alt="my avatar">
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- ==== Home Section End ==== -->
+        <div class="nav-toggler">
+          <span></span>
+        </div>
+        <ul class="nav">
+          <li>
+            <a href="#" class="active"><i class="fa fa-home"></i> Acceuil </a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-user"></i> A Propos </a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-list"></i> Services </a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-briefcase"></i> Portfolio </a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-comments"></i> Contact </a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-home"></i> Bonus </a>
+          </li>
+        </ul>
+      </div>
+      <!-- ==== Aside End ==== -->
+      <!-- ==== Main Content Start ==== -->
+      <div class="main-content">
+        <!-- ==== Home Section Start ==== -->
+        <section class="home section">
+          <div class="container">
+            <div class="row">
+              <div class="home-info padd-15">
+                <h3 class="hello">Qui <span class="name">suis je ?</span></h3>
+                <h3 class="my-profession">
+                  J'étudie au sein de la <span class="typing">promo Z</span>
+                </h3>
+                <h4 class="subtitle">Charade / Devinette de mon invention ~</h4>
+                <p class="subtitle-text">
+                  Un peu d'exercice cérébral s'il vous plait
+                  <i class="far fa-lightbulb"></i>
+                </p>
+                <ul>
+                  <li>
+                    <p>1. Je suis l'appelation du mot "voiture" en anglais.</p>
+                  </li>
+                  <li>
+                    <p>
+                      2. Les parents crient souvent "!!!" à leurs enfants quand
+                      <br />
+                      il est temps d'aller se coucher.
+                    </p>
+                  </li>
+                  <li>
+                    <p>3. Un "xxxxx" est à l'orgine des boucles de lacets.</p>
+                  </li>
+                  <li>
+                    <p>
+                      Alors, avez vous trouvez mon prénom ?
+                      <i class="far fa-smile-beam"></i>
+                    </p>
+                  </li>
+                  <li class="home-spoiler">
+                    Réponse : <span>Caroline Liard</span>
+                  </li>
+                </ul>
+                <a href="#contact" class="btn hire-me"
+                  >Intrigué ? Par ici les infos !</a
+                >
+              </div>
+              <div class="home-img padd-15">
+                <img src="styles/images/TAG_01_Merry.png" alt="my avatar" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- ==== Home Section End ==== -->
 
-        </div>
-        <!-- ==== Main Content End ==== -->
+        <!-- ==== About Section Start ==== -->
+        <section class="about section">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>A propos</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="about-content padd-15">
+                <div class="row">
+                  <div class="about-text padd-15">
+                    <h3>Je fais partie de la <span>promo Z n*3</span></h3>
+                    <p>
+                      J'ai choisi la voie du numérique car celle ci me fascine
+                      depuis longtemps. Ma première pensée étant comment ça
+                      marche tout ça ? J'aimerais moi aussi concevoir de A à Z
+                      un site web ! C'est là que tout a commencé... Hyper
+                      curieuse, c'est donc par challenge et envie que j'ai
+                      décidé de bifurquer vers le développement Web.
+                    </p>
+                    <br />
+                    <blockquote>
+                      "J'ai un faible pour les jeux de mots nuls."
+                    </blockquote>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="personal-info padd-15">
+                    <div class="row">
+                      <div class="info-item padd-15">
+                        <h4>
+                          Domaines que j'<span>affectionne</span> fortement
+                        </h4>
+                        <ul>
+                          <li class="padd-15"><p>Cinéma d'animation</p></li>
+                          <li class="padd-15"><p>Jeux vidéos</p></li>
+                          <li class="padd-15"><p>Sport</p></li>
+                        </ul>
+                      </div>
+                      <div class="info-item padd-15">
+                        <h4>Mes supers pouvoirs</h4>
+                        <ul>
+                          <li class="padd-15">
+                            <p>Je dessine <span>super</span> bien</p>
+                          </li>
+                          <li class="padd-15">
+                            <p>Je lis <span>hyper</span> vite</p>
+                          </li>
+                          <li class="padd-15">
+                            <p>
+                              Je découvre les bugs à la vitesse
+                              <span>ultra</span>
+                            </p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="skills padd-15">
+                    <h4>Mon futur</h4>
+                    <h5>
+                      Que doivent savoir vos futurs collègues sur vous et votre
+                      fonctionnement ?
+                    </h5>
+                    <p>...</p>
+                    <p>ERREUR 404!</p>
+                    <h5>Les attentes concernant les membres de l'équipe que vous allez rejoindre.</h5>
+                    <p>Hm... Alors, chèr(e)s futur(e)s collègues, soyez gentils avec moi </p>
+                    <h5>Qu'est ce que je vise professionnellement d'ici 3 à 5 ans ?</h5>
+                    <p>Honnêtement c'est une très bonne question 0.0
+
+                        Plus sérieusement, j'aimerais devenir développeuse Front et être en lien avec la partie Design des projets.</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="education padd-15">
+                    <h3 class="title">Parcours</h3>
+                    <div class="row">
+                      <div class="timeline-box padd-15">
+                        <div class="timeline shadow-dark">
+                          <!-- ==== Timeline Item ==== -->
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"></i> 2020
+                            </h3>
+                            <h4 class="timeline-title">Formation O'Clock</h4>
+                            <p>
+                              Lorem ipsum dolor sit amet consectetur adipisicing
+                              elit. Natus eos id distinctio quas deleniti
+                              expedita adipisci porro saepe debitis ipsa? Porro
+                              consequuntur et velit laborum neque.
+                            </p>
+                          </div>
+
+                          <!-- ==== Timeline Item ==== -->
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"></i> 2014 - 2019
+                            </h3>
+                            <h4 class="timeline-title">
+                              Mastère en Cinéma d'Animation
+                            </h4>
+                            <p>
+                              Lorem ipsum dolor sit amet consectetur adipisicing
+                              elit. Natus eos id distinctio quas deleniti
+                              expedita adipisci porro saepe debitis ipsa? Porro
+                              consequuntur et velit laborum neque.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="experience padd-15">
+                    <h3 class="title">Expérience</h3>
+                    <div class="row">
+                      <div class="timeline-box padd-15">
+                        <div class="timeline shadow-dark">
+                          <!-- ==== Timeline Item ==== -->
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"></i> 2021
+                            </h3>
+                            <h4 class="timeline-title">Intégratice Web - Ylly</h4>
+                            <p>
+                              Lorem ipsum dolor sit amet consectetur adipisicing
+                              elit. Natus eos id distinctio quas deleniti
+                              expedita adipisci porro saepe debitis ipsa? Porro
+                              consequuntur et velit laborum neque.
+                            </p>
+                          </div>
+
+                          <!-- ==== Timeline Item ==== -->
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"></i> 2021
+                            </h3>
+                            <h4 class="timeline-title">
+                              Stagiaire en Développement Front - L'Antre des Jeux
+                            </h4>
+                            <p>
+                              Lorem ipsum dolor sit amet consectetur adipisicing
+                              elit. Natus eos id distinctio quas deleniti
+                              expedita adipisci porro saepe debitis ipsa? Porro
+                              consequuntur et velit laborum neque.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- ==== About Section End ==== -->
+      </div>
+      <!-- ==== Main Content End ==== -->
     </div>
     <!-- ==== Main Container End ==== -->
     <!-- ==== JS FILES ==== -->
-</body>
+  </body>
 </html>
