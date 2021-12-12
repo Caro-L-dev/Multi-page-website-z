@@ -15,6 +15,8 @@
     padding: 3rem 0.5rem;
     text-align: center;
     transition: all 0.3s ease;
+    box-sizing: content-box;
+    overflow: hidden;
 }
 
 .medias .medias-item .medias-item-inner:hover{
