@@ -1,0 +1,131 @@
+.aside{
+    position: fixed;
+    border-right: 0.1rem solid var(--bg-black-50);
+    left: 0;
+    top: 0;
+    width: 18rem;
+    background: var(--bg-black-100);
+    padding: 2rem;
+    height: 100%;
+    z-index: 10;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.aside .logo{
+    position: absolute;
+    top: 5rem;
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+.aside .logo a{
+    color: var(--text-black-900);
+    font-weight: 700;
+    padding: 1.5rem 2rem;
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
+    position: relative;
+}
+
+.aside .logo a span{
+    font-family: 'Clicker Script', cursive;
+    font-size: 3rem;
+}
+
+.aside .logo a::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 2rem;
+    height: 2rem;
+    border-bottom: 0.5rem solid var(--skin-color);
+    border-left: 0.5rem solid var(--skin-color);
+}
+
+.aside .logo a::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2rem;
+    height: 2rem;
+    border-top: 0.5rem solid var(--skin-color);
+    border-right: 0.5rem solid var(--skin-color);
+}
+
+.aside .nav-toggler{
+    height: 3rem;
+    width: 4rem;
+    border: 0.1rem solid var(--bg-black-50);
+    cursor: pointer;
+    position: fixed;
+    left: 19rem;
+    top: 1rem;
+    border-radius: 0.5rem;
+    background: var(--bg-black-100);
+
+    display: none; /* Or Flex */
+    align-items: center;
+    justify-content: center;
+}
+
+.aside .nav-toggler span{
+    position: relative;
+    display: inline-block;
+    height: 0.2rem;
+    width: 1rem;
+    background: var(--skin-color);
+}
+
+.aside .nav-toggler span::before{
+    content: '';
+    height: 0.2rem;
+    width: 1rem;
+    background: var(--skin-color);
+
+    position: absolute;
+    top: -0.4rem;
+    left: 0;
+}
+
+.aside .nav-toggler span::after{
+    content: '';
+    height: 0.2rem;
+    width: 1rem;
+    background: var(--skin-color);
+
+    position: absolute;
+    top: 0.4rem;
+    left: 0;
+}
+
+.aside .nav{
+    margin-top: 0.5rem;
+}
+
+.aside .nav li{
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.aside .nav li a {
+    font-size: 1rem;
+    font-weight: 600;
+    display: block;
+    color: var(--text-black-900);
+    padding: 0.2rem 0.1rem;
+    border-bottom: 0.1rem solid var(--bg-black-50);
+}
+
+.aside .nav li a.active{
+    color: var(--skin-color);
+}
+
+.aside .nav li a  i{
+    margin-right: 0.5rem;
+}
