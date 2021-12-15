@@ -7,6 +7,7 @@
 .about .about-content .about-text{
     flex: 0 0 100%;
     max-width: 100%;
+    font-style: italic;
 }
 
 .about .about-content .about-text h3{
@@ -21,14 +22,19 @@
 }
 
 .about .about-content .about-text p{
-    font-size: 1rem;
-    line-height: 1.5rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
     color: var(--text-black-700);
 }
 
+.about .about-content .about-text p span{
+    color: var(--skin-color);
+    font-weight: 700;
+}
+
 .about .about-content .personal-info{
-    flex: 0 0 60%;
-    max-width: 60%;
+    flex: 0 0 100%;
+    max-width: 100%;
     margin-top: 3rem;
 }
 
@@ -37,10 +43,15 @@
     max-width: 50%;
 }
 
+.about .about-content .personal-info .info-item h4{
+    color: var(--text-black-900);
+    font-size: 1.5rem;
+}
+
 .about .about-content .personal-info .info-item p{
    /* font-weight: 600;*/
     padding: 0.2rem 0;
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: var(--text-black-900);
     border-bottom: 0.1rem solid var(--bg-black-50);
 }
@@ -56,13 +67,15 @@
     flex: 0 0 40%;
     max-width: 40%;
     margin-top: 3rem;
+    color: var(--text-black-700);
+    font-size: 1.5rem;
 }
 
 .about .about-content .education,
 .about .about-content .experience{
     flex: 0 0 50%;
     max-width: 50%;
-    margin-top: 0.3rem;
+    margin-top: 3rem;
 }
 
 .about .about-content h3.title{
@@ -90,6 +103,7 @@
     position: relative;
     padding-left: 3rem;
     padding-bottom: 5rem;
+    color: var(--text-black-700);
 }
 
 .about .about-content .timeline .timeline-item:last-child{
