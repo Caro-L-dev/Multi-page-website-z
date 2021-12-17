@@ -1,0 +1,38 @@
+#usersAPI{
+    display: flex;
+    flex-wrap: wrap; 
+    margin-top: -3rem;
+}
+
+#usersAPI div{
+  /* border: 0.3rem solid var(--skin-color);*/
+    border-radius: 1rem;
+    padding: 2rem;
+    margin: 1rem;
+    justify-content: space-evenly;
+    text-align: center;
+    float: left;
+}
+
+#usersAPI h4{
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    color: white;
+    margin-bottom: 1rem;
+    background-color: var(--skin-color);
+    border-radius: 0.2rem;
+    margin-top: -3.2rem;
+}
+
+#usersAPI h5{
+    font-family: 'Clicker Script', cursive;
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+}
+
+#usersAPI p{
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+}
